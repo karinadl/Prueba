@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - InnovaTube</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="register.html">Registro</a></li>
+            <li><a href="login.html">Inicio de sesión</a></li>
+            <li><a href="favorites.html">Favoritos</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <h1>Inicio de sesión</h1>
+        <div id="form-container">
+            <form action="/login" method="post" id="form">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required><br>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required><br>
+                <button type="submit">Iniciar sesión</button>
+            </form>
+
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
